@@ -13,37 +13,44 @@ function App() {
       {/* Contains the quiz */}
       <div className='app-container'>
 
+        {/* Score container */}
         <div className='score-container'>
           <p className='score'>20/55</p>
         </div>
 
+        {/* Image container. Images should change */}
+        <div className='image-container'>
+          image
+          <img className='image' src="" alt="" />
+        </div>
+
+        {/* Question Container */}
         <div className='question-container'>
           <p className='question'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dolor quo fuga, quaerat eveniet obcaecati itaque modi, voluptas maiores, minima nemo perferendis dolorum quod! Sapiente officiis dolorem omnis accusamus aspernatur?</p>
         </div>
 
-        {/* Image container. Images should change */}
-        <div className='image-container'>
-          <img className='image' src="" alt="" />
-        </div>
-
+        {/* Option 1 */}
         <div className='option-container'>
-          <p className='option'>
+          <p className='option' id='opt1'>
             Option 1
           </p>
         </div>
 
+        {/* Option 2 */}
         <div className='option-container'>
-          <p className='option'>
+          <p className='option' id='opt2'>
             Option 2
           </p>
         </div>
 
+        {/* Option 2 */}
         <div className='option-container'>
-          <p className='option'>
+          <p className='option' id='opt3'>
             Option 3
           </p>
         </div>
 
+        {/* Skip or next */}
         <div className='control-container'>
           <button type="submit">SKIP</button>
           <button type="submit">
