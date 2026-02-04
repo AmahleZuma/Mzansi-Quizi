@@ -1,11 +1,28 @@
 * {
     margin-top: 0;
+    font-size: 20;
+    font-family: sans-serif;
+    line-height: 1.6vh;
 }
 
 .heading {
     margin-top: 10px;
     text-align: center;
 
+}
+
+.score-container {
+    width: 50px ;
+    height: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid black;
+}
+
+.score{
+    text-align: center;
 }
 
 .app-container {
