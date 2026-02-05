@@ -29,26 +29,26 @@ function App() {
           <p className='question'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dolor quo fuga, quaerat eveniet obcaecati itaque modi, voluptas maiores, minima nemo perferendis dolorum quod! Sapiente officiis dolorem omnis accusamus aspernatur?</p>
         </div>
 
-        {/* Option 1 */}
+
+
+        {/* Options */}
         <div className='option-container'>
-          <p className='option' id='opt1'>
+
+          <button className='option' id='opt1'>
             Option 1
-          </p>
-        </div>
+          </button>
 
-        {/* Option 2 */}
-        <div className='option-container'>
-          <p className='option' id='opt2'>
+          <button className='option' id='opt2'>
             Option 2
-          </p>
+          </button>
+
+          <button className='option' id='opt3'>
+            Option 3
+          </button>
+
         </div>
 
-        {/* Option 2 */}
-        <div className='option-container'>
-          <p className='option' id='opt3'>
-            Option 3
-          </p>
-        </div>
+
 
         {/* Skip or next */}
         <div className='control-container'>

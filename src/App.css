@@ -1,6 +1,6 @@
 * {
     margin-top: 0;
-    font-size: 20;
+    font-size: 16px;
     font-family: sans-serif;
     line-height: 1.6vh;
 }
@@ -52,9 +52,23 @@
 }
 
 .option-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px; */
+    width: 450px;
+    height: 200px;
+
+} 
+
+.option {
+    all: unset;
+    cursor: pointer;
+    background-color: beige;
     padding: 10px;
     width: 400px;
-    height: 25px;
+    height: 50px;
+    margin-bottom: 10px;
     border: 6px solid black;
 }
 
