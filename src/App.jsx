@@ -52,9 +52,8 @@ function App() {
 
         {/* Skip or next */}
         <div className='control-container'>
-          <button type="submit">SKIP</button>
-          <button type="submit">
-            ➡️
+          <button type="submit" className='continue'>
+            CONTINUE ➡️
           </button>
         </div>
 

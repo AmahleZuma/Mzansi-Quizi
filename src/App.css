@@ -15,7 +15,7 @@
     display: grid;
     place-items: center;
     width: 600px;
-    height: 800px;
+    height: 900px;
     border: 6px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -48,5 +48,18 @@
     width: 400px;
     height: 100px;
     padding: 10px;
+    border: 6px solid black;
+}
+
+.option-container {
+    padding: 10px;
+    width: 400px;
+    height: 25px;
+    border: 6px solid black;
+}
+
+.continue {
+    padding: 10px;
+    background-color: beige;
     border: 6px solid black;
 }
