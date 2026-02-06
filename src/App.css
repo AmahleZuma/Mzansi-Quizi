@@ -72,6 +72,14 @@
     border: 6px solid black;
 }
 
+.option:hover {
+    background-color: #f0e6c8;
+}
+
+.option:active {
+    transform: scale(0.98)
+}
+
 .continue {
     padding: 10px;
     background-color: beige;
